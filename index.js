@@ -14,7 +14,7 @@ module.exports = c = {
     trace: function () {
         return enabled && console.trace.apply(console, arguments)
     },
-    debug: function () {
-        return enabled && console.debug.apply(console, arguments)
+    info: function () {
+        return enabled && console.info.apply(console, arguments)
     }
 }
