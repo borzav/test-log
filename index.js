@@ -1,5 +1,5 @@
 var enabled = true;
-module.exports = c = {
+module.exports = {
     enable: function(value){ enabled = !!value },
     
     log: function () {
