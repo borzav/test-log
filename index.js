@@ -10,5 +10,8 @@ module.exports = c = {
     },
     error: function () {
         return enabled && console.error.apply(console, arguments)
+    },
+    trace: function () {
+        return enabled && console.trace.apply(console, arguments)
     }
 }
