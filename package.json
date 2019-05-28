@@ -1,0 +1,17 @@
+{
+  "name": "simple-console-log",
+  "version": "0.1.1",
+  "description": "simple console log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "borzav",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaydata/jaydata.git"
+  },
+  "license": "ISC",
+  "devDependencies": {}
+}
